@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Burhan Marvi Lab 5: HTML Forms</title>
+    </head>
+
+    <body>
+        <div class= "wrapper">
+            <div class="container">
+                <div class="box title is-4">
+                    <p>Burhan Marvi Lab 5</p>
+                </div>
+
+                <form action='/api' method='get'>
+                    <div class="columns is-vcentered">
+                        <div class = "column is-one-fifth is-offset-one-fifth">
+                            <div class="box">
+                                    <div class="field">
+                                        <label class="label">First Name</label>
+                                            <div class="control">
+                                                <input id="first_name" class="input" type="text" placeholder="Text input">
+                                            </div>
+                                    </div>
+                                
+                                    <div class="field">
+                                        <label class="label">Last Name</label>
+                                            <div class="control">
+                                                <input id="last_name" class="input" type="text" placeholder="Text input">
+                                            </div>
+                                    </div>
+            
+                                    <div class="field">
+                                        <label class="radio label">Veggie or Vegan?</label>
+                                        Yes
+                                            <input id="y" type="radio" name="answer">
+                                        </label>
+                                        <label class="radio">
+                                            No
+                                            <input id="n" type="radio" name="answer">
+                                        </label>
+                                    </div>    
+                                    <div class="control">
+                                        <button class="button is-primary">Submit</button>
+                                    </div>
+                                </div>     
+                            </div>
+
+                            <div class="column box">
+                                <p>This is going to be something in two weeks</p>
+                            </div>
+                        </div>     
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>
